@@ -1008,8 +1008,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.30317848410757947,
-      "y": 0.16768292682926828,
+      "x": 0.29991850040749796,
+      "y": 0.1798780487804878,
       "uniqueID": "id-9051",
       "name": "top_joints",
       "ioValues": [
@@ -1278,8 +1278,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.15729421352893236,
-          "y": 0.5670731707317073,
+          "x": 0.15647921760391198,
+          "y": 0.5701219512195123,
           "uniqueID": "id-9055",
           "name": "3-way-dowel_Corner_joint_",
           "ioValues": [
@@ -2508,6 +2508,36 @@
           },
           "unitsKey": "Inches",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Export",
+          "x": 0.26079869600651995,
+          "y": 0.8567073170731707,
+          "uniqueID": "id-11120",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "top_joints",
+              "currentEquation": "top_joints"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "top_joints"
         }
       ],
       "allConnectors": [
@@ -2580,6 +2610,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-9055",
           "ap2ID": "id-9102"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-9055",
+          "ap2ID": "id-11120"
         }
       ],
       "fileTypeVersion": 1
