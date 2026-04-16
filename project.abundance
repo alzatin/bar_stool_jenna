@@ -1629,12 +1629,16 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6723716381418092,
-      "y": 0.3536585365853659,
+      "x": 0.6715566422167889,
+      "y": 0.3780487804878049,
       "uniqueID": "id-9455",
       "ioValues": [
         {
           "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
           "ioValue": null
         }
       ]
@@ -1648,10 +1652,20 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.37082314588427057,
-      "y": 0.7225609756097561,
+      "x": 0.28280358598207006,
+      "y": 0.3780487804878049,
       "uniqueID": "id-9463",
-      "name": "Molecule",
+      "name": "top-braces",
+      "ioValues": [
+        {
+          "name": "dowel_diam",
+          "ioValue": 1.375
+        },
+        {
+          "name": "stool_height",
+          "ioValue": 30
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -2761,9 +2775,26 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": -10,
+              "currentEquation": "- stool_height/3"
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-9660",
+          "name": "dowel_diam",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-9663",
+          "name": "stool_height",
+          "type": "number"
         }
       ],
       "allConnectors": [
@@ -2834,6 +2865,30 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.25101874490627546,
+      "y": 0.6676829268292683,
+      "uniqueID": "id-9666",
+      "name": "Legs",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-9668",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -2853,9 +2908,24 @@
       "ap2ID": "id-9051"
     },
     {
+      "ap2Name": "dowel_diam",
+      "ap1ID": "id-9314",
+      "ap2ID": "id-9463"
+    },
+    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-9455",
       "ap2ID": "id-8783"
+    },
+    {
+      "ap2Name": "stool_height",
+      "ap1ID": "id-9459",
+      "ap2ID": "id-9463"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-9463",
+      "ap2ID": "id-9455"
     }
   ],
   "unitsKey": "Inches",
