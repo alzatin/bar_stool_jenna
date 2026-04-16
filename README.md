@@ -8,6 +8,7 @@
 
 - **stool_width** (number)
 - **dowel_diam** (number)
+- **stool_height** (number)
 
 
 
