@@ -7,6 +7,7 @@
 ## Inputs
 
 - **stool_width** (number)
+- **dowel_diam** (number)
 
 
 
