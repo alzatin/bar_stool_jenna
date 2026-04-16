@@ -64,6 +64,10 @@
         {
           "name": "Shape 3",
           "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
         }
       ]
     },
@@ -95,9 +99,471 @@
       ]
     },
     {
+      "atomType": "Color",
+      "x": 0.7245313773431133,
+      "y": 0.18292682926829268,
+      "uniqueID": "id-11117",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Olive"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6397718011409943,
+      "y": 0.7103658536585366,
+      "uniqueID": "id-11214",
+      "ioValues": [
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Fusion",
+      "x": 0.7620211898940505,
+      "y": 0.801829268292683,
+      "uniqueID": "id-11221",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": [
+                  {
+                    "geometry": "cut-cut-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "cut-cut-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8--20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8--20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8--6",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8--6",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              }
+            ],
+            "dimension": "3D",
+            "nonReplicadSerialized": []
+          }
+        }
+      ],
+      "unionType": "Fusion"
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.23308883455582724,
-      "y": 0.5152439024390244,
+      "x": 0.28687856560717195,
+      "y": 0.6676829268292683,
       "uniqueID": "id-9666",
       "name": "Legs",
       "ioValues": [
@@ -531,8 +997,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3382233088834556,
-      "y": 0.6036585365853658,
+      "x": 0.3341483292583537,
+      "y": 0.8536585365853658,
       "uniqueID": "id-10120",
       "name": "top_dowels",
       "ioValues": [
@@ -1008,6 +1474,499 @@
     },
     {
       "atomType": "Molecule",
+      "x": 0.25835370823145887,
+      "y": 0.9146341463414634,
+      "uniqueID": "id-11125",
+      "name": "Side_dowels_1",
+      "ioValues": [
+        {
+          "name": "stool_height",
+          "ioValue": 30
+        },
+        {
+          "name": "dowel_diam",
+          "ioValue": 1.375
+        },
+        {
+          "name": "stool_width",
+          "ioValue": 16
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-11127",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4645476772616137,
+          "y": 0.19207317073170732,
+          "uniqueID": "id-11130",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5884270578647106,
+          "y": 0.14939024390243902,
+          "uniqueID": "id-11131",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -20,
+              "currentEquation": "-stool_height/1.5"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.589242053789731,
+          "y": 0.27743902439024387,
+          "uniqueID": "id-11132",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -20,
+              "currentEquation": "-stool_height/1.5"
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8728606356968216,
+          "y": 0.46341463414634143,
+          "uniqueID": "id-11133",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4672779136104319,
+          "y": 0.6329268292682927,
+          "uniqueID": "id-11134",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.597677261613692,
+          "y": 0.5902439024390244,
+          "uniqueID": "id-11135",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -6,
+              "currentEquation": "-stool_height/5"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6120619396903015,
+          "y": 0.8109756097560976,
+          "uniqueID": "id-11136",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -6,
+              "currentEquation": "-stool_height/5"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-11203",
+          "name": "stool_height",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-11206",
+          "name": "dowel_diam",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-11209",
+          "name": "stool_width",
+          "type": "number"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.28117359413202936,
+          "y": 0.48780487804878053,
+          "uniqueID": "id-11137",
+          "name": "Dowel",
+          "ioValues": [
+            {
+              "name": "Dow_length",
+              "ioValue": 16
+            },
+            {
+              "name": "Dow_Diam",
+              "ioValue": 1.375
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-11138",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.30969845150774244,
+              "y": 0.4603658536585366,
+              "uniqueID": "id-11139",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 1.375
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-11140",
+              "name": "Dow_length"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-11141",
+              "name": "Dow_Diam"
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5158924205378973,
+              "y": 0.46341463414634143,
+              "uniqueID": "id-11142",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 16
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.42542787286063566,
+              "y": 0.771341463414634,
+              "uniqueID": "id-11143",
+              "ioValues": [
+                {
+                  "name": "diam",
+                  "ioValue": 5
+                },
+                {
+                  "name": "length",
+                  "ioValue": 10
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"diam\", type: \"number\", defaultValue: 5 },\n  { inputName: \"length\", type: \"number\", defaultValue: 10 }\n];\n\nreturn `Wood dowel ${diam}in diameter, ${length}in length`"
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "x": 0.7098614506927465,
+              "y": 0.5487804878048781,
+              "uniqueID": "id-11144",
+              "name": "Add BOM Tag",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Item Name",
+                  "ioValue": "Wood dowel 5in diameter, 10in length",
+                  "currentEquation": "Wood dowel 5in diameter, 10in length"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11139",
+              "ap2ID": "id-11142"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-11140",
+              "ap2ID": "id-11142"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-11141",
+              "ap2ID": "id-11139"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11142",
+              "ap2ID": "id-11144"
+            },
+            {
+              "ap2Name": "Item Name",
+              "ap1ID": "id-11143",
+              "ap2ID": "id-11144"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-11144",
+              "ap2ID": "id-11138"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "Dowel",
+            "dateCreated": "2026-04-16T20:01:46Z",
+            "readMe": "https://raw.githubusercontent.com/alzatin/Dowel/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-9670",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/alzatin/Dowel",
+            "topics": [
+              "material"
+            ],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739722",
+            "ranking": 0,
+            "searchField": "dowel alzatin  material",
+            "owner": "alzatin",
+            "description": "",
+            "contentURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Inches",
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11130",
+          "ap2ID": "id-11131"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11130",
+          "ap2ID": "id-11132"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-11131",
+          "ap2ID": "id-11133"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-11132",
+          "ap2ID": "id-11133"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-11133",
+          "ap2ID": "id-11127"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11134",
+          "ap2ID": "id-11135"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11134",
+          "ap2ID": "id-11136"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-11135",
+          "ap2ID": "id-11133"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-11136",
+          "ap2ID": "id-11133"
+        },
+        {
+          "ap2Name": "Dow_Diam",
+          "ap1ID": "id-11206",
+          "ap2ID": "id-11137"
+        },
+        {
+          "ap2Name": "Dow_length",
+          "ap1ID": "id-11209",
+          "ap2ID": "id-11137"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11137",
+          "ap2ID": "id-11130"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11137",
+          "ap2ID": "id-11134"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
       "x": 0.29991850040749796,
       "y": 0.1798780487804878,
       "uniqueID": "id-9051",
@@ -1275,6 +2234,36 @@
           "uniqueID": "id-9320",
           "name": "stool_width",
           "type": "number"
+        },
+        {
+          "atomType": "Export",
+          "x": 0.26079869600651995,
+          "y": 0.8567073170731707,
+          "uniqueID": "id-11120",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "top_joints",
+              "currentEquation": "top_joints"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "top_joints"
         },
         {
           "atomType": "GitHubMolecule",
@@ -2508,36 +3497,6 @@
           },
           "unitsKey": "Inches",
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Export",
-          "x": 0.26079869600651995,
-          "y": 0.8567073170731707,
-          "uniqueID": "id-11120",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "File Type",
-              "ioValue": "STL",
-              "currentEquation": "STL"
-            },
-            {
-              "name": "Resolution (dpi)",
-              "ioValue": 96
-            },
-            {
-              "name": "Part Name",
-              "ioValue": "top_joints",
-              "currentEquation": "top_joints"
-            }
-          ],
-          "type": null,
-          "resolution": 96,
-          "importIndex": 0,
-          "partName": "top_joints"
         }
       ],
       "allConnectors": [
@@ -3878,13 +4837,11 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
+              "ioValue": 90
             }
           ]
         },
@@ -4119,8 +5076,7 @@
             },
             {
               "name": "section_width",
-              "ioValue": 1.5,
-              "currentEquation": "1.5"
+              "ioValue": 1.5
             },
             {
               "name": "Dowel_depth",
@@ -5051,29 +6007,12 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Color",
-      "x": 0.7245313773431133,
-      "y": 0.18292682926829268,
-      "uniqueID": "id-11117",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "selectedColor": "Olive"
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.28198859005704974,
-      "y": 0.7134146341463415,
-      "uniqueID": "id-11125",
-      "name": "Side_dowels_1",
+      "x": 0.3431132844335778,
+      "y": 0.5274390243902439,
+      "uniqueID": "id-11953",
+      "name": "Leg_caps",
       "ioValues": [
-        {
-          "name": "stool_height",
-          "ioValue": 30
-        },
         {
           "name": "dowel_diam",
           "ioValue": 1.375
@@ -5081,6 +6020,10 @@
         {
           "name": "stool_width",
           "ioValue": 16
+        },
+        {
+          "name": "stool_height",
+          "ioValue": 30
         }
       ],
       "topLevel": false,
@@ -5089,7 +6032,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-11127",
+          "uniqueID": "id-11955",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -5098,10 +6041,429 @@
           ]
         },
         {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-11957",
+          "name": "dowel_diam",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-11960",
+          "name": "stool_width",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-11963",
+          "name": "stool_height",
+          "type": "number"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.23553382233088832,
+          "y": 0.4024390243902439,
+          "uniqueID": "id-11983",
+          "name": "Dowel_cap",
+          "ioValues": [
+            {
+              "name": "DowelDiam",
+              "ioValue": 1.375,
+              "currentEquation": "1 + 3/8"
+            },
+            {
+              "name": "Hole_Depth",
+              "ioValue": 0.5
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-11967",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-11968",
+              "name": "DowelDiam",
+              "type": "number"
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.2208638956805216,
+              "y": 0.7560975609756098,
+              "uniqueID": "id-11969",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 1.5,
+                  "currentEquation": "DowelDiam+.125"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4645476772616137,
+              "y": 0.5975609756097561,
+              "uniqueID": "id-11970",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.7638888888888888,
+                  "currentEquation": "DowelDiam/1.8"
+                }
+              ]
+            },
+            {
+              "atomType": "Fusion",
+              "x": 0.6894865525672371,
+              "y": 0.29268292682926833,
+              "uniqueID": "id-11971",
+              "ioValues": [
+                {
+                  "name": "Shape 2",
+                  "ioValue": {
+                    "geometry": "move-1b7813a2-0.75-0-0-0-0.7638888888888888",
+                    "tags": [],
+                    "color": "#A3CE5B",
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "dimension": "3D"
+                  }
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": {
+                    "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.7638888888888888",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                }
+              ],
+              "unionType": "Fusion"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.4343928280358598,
+              "y": 0.29573170731707316,
+              "uniqueID": "id-11972",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0.7638888888888888,
+                  "currentEquation": "DowelDiam/1.8"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.430317848410758,
+              "y": 0.8140243902439025,
+              "uniqueID": "id-11973",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 1.375,
+                  "currentEquation": "DowelDiam"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5647921760391198,
+              "y": 0.6524390243902439,
+              "uniqueID": "id-11974",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.5,
+                  "currentEquation": "Hole_Depth"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.810920945395273,
+              "y": 0.6615853658536586,
+              "uniqueID": "id-11975",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Color",
+              "x": 0.8958051420838972,
+              "y": 0.8079268292682927,
+              "uniqueID": "id-11976",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "selectedColor": "Orange"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-11982",
+              "name": "Hole_Depth"
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.2844335778321109,
+              "y": 0.45121951219512196,
+              "uniqueID": "id-11977",
+              "name": "Sphere",
+              "ioValues": [
+                {
+                  "name": "Radius",
+                  "ioValue": 0.75,
+                  "currentEquation": "DowelDiam/2 +.0625"
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-11978",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.45804540967423496,
+                  "y": 0.5090909090909091,
+                  "uniqueID": "id-11979",
+                  "ioValues": [
+                    {
+                      "name": "radius",
+                      "ioValue": 0.75
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "//Inputs:[radius];\n\n//let shape = replicad.makeSphere(radius)\n\nconst newPlane = new replicad.Plane().pivot(0, 'Y');\n\n return { geometry: [replicad.makeSphere(radius)], tags: [],\n      color: '#A3CE5B',\n      bom:[],\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-11980",
+                  "name": "Radius",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Constant",
+                  "x": 0.24709302325581398,
+                  "y": 0.8575851393188855,
+                  "uniqueID": "id-11981",
+                  "value": 10
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-11979",
+                  "ap2ID": "id-11978"
+                },
+                {
+                  "ap2Name": "radius",
+                  "ap1ID": "id-11980",
+                  "ap2ID": "id-11979"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-04-08T18:23:39.284Z",
+                "repoName": "Sphere",
+                "dateCreated": "2024-11-13T19:37:04Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/alzatin/Sphere/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": 1731526624936,
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/BarbourSmith/Sphere",
+                "topics": [],
+                "parentRepo": "BarbourSmith/Sphere",
+                "forks": 1,
+                "dateModified": "03/05/2025",
+                "ranking": 1.4,
+                "searchField": "sphere alzatin",
+                "owner": "alzatin",
+                "description": "Creates a sphere from the input radius",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Sphere/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Inches",
+              "fileTypeVersion": 1
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11969",
+              "ap2ID": "id-11970"
+            },
+            {
+              "ap2Name": "Shape 5",
+              "ap1ID": "id-11970",
+              "ap2ID": "id-11971"
+            },
+            {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-11971",
+              "ap2ID": "id-11975"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-11972",
+              "ap2ID": "id-11971"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11973",
+              "ap2ID": "id-11974"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-11974",
+              "ap2ID": "id-11975"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11975",
+              "ap2ID": "id-11976"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-11976",
+              "ap2ID": "id-11967"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-11977",
+              "ap2ID": "id-11972"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "Dowel_cap",
+            "dateCreated": "2026-04-16T21:22:41Z",
+            "readMe": "https://raw.githubusercontent.com/alzatin/Dowel_cap/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-5710",
+            "githubMoleculesUsed": [
+              {
+                "owner": "alzatin",
+                "repoName": "Sphere"
+              }
+            ],
+            "html_url": "https://github.com/alzatin/Dowel_cap",
+            "topics": [
+              "furniture"
+            ],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739722",
+            "ranking": 0,
+            "searchField": "dowel_cap alzatin  furniture",
+            "owner": "alzatin",
+            "description": "",
+            "contentURL": "https://raw.githubusercontent.com/alzatin/Dowel_cap/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/alzatin/Dowel_cap/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "fileTypeVersion": 1
+        },
+        {
           "atomType": "Rotate",
-          "x": 0.4645476772616137,
-          "y": 0.19207317073170732,
-          "uniqueID": "id-11130",
+          "x": 0.3740831295843521,
+          "y": 0.5304878048780488,
+          "uniqueID": "id-12025",
           "ioValues": [
             {
               "name": "geometry",
@@ -5113,7 +6475,8 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 90
+              "ioValue": 180,
+              "currentEquation": "180"
             },
             {
               "name": "z-axis degrees",
@@ -5123,9 +6486,36 @@
         },
         {
           "atomType": "Move",
-          "x": 0.5884270578647106,
-          "y": 0.14939024390243902,
-          "uniqueID": "id-11131",
+          "x": 0.5077424612876936,
+          "y": 0.2652439024390244,
+          "uniqueID": "id-12031",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -30,
+              "currentEquation": "-stool_height"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5330073349633252,
+          "y": 0.4817073170731707,
+          "uniqueID": "id-12049",
           "ioValues": [
             {
               "name": "geometry",
@@ -5143,16 +6533,43 @@
             },
             {
               "name": "zDist",
-              "ioValue": -20,
-              "currentEquation": "-stool_height/1.5"
+              "ioValue": -30,
+              "currentEquation": "-stool_height"
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.589242053789731,
-          "y": 0.27743902439024387,
-          "uniqueID": "id-11132",
+          "x": 0.48981255093724535,
+          "y": 0.8109756097560976,
+          "uniqueID": "id-12055",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": -30,
+              "currentEquation": "-stool_height"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5468622656886716,
+          "y": 0.6189024390243902,
+          "uniqueID": "id-12061",
           "ioValues": [
             {
               "name": "geometry",
@@ -5170,16 +6587,16 @@
             },
             {
               "name": "zDist",
-              "ioValue": -20,
-              "currentEquation": "-stool_height/1.5"
+              "ioValue": -30,
+              "currentEquation": "-stool_height"
             }
           ]
         },
         {
           "atomType": "Assembly",
-          "x": 0.8728606356968216,
-          "y": 0.46341463414634143,
-          "uniqueID": "id-11133",
+          "x": 0.7318663406682967,
+          "y": 0.5335365853658537,
+          "uniqueID": "id-12067",
           "ioValues": [
             {
               "name": "Shape 1",
@@ -5198,812 +6615,66 @@
               "ioValue": null
             }
           ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.4672779136104319,
-          "y": 0.6329268292682927,
-          "uniqueID": "id-11134",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 90
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.597677261613692,
-          "y": 0.5902439024390244,
-          "uniqueID": "id-11135",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": -8,
-              "currentEquation": "-stool_width/2"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 8,
-              "currentEquation": "stool_width/2"
-            },
-            {
-              "name": "zDist",
-              "ioValue": -6,
-              "currentEquation": "-stool_height/5"
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.6120619396903015,
-          "y": 0.8109756097560976,
-          "uniqueID": "id-11136",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 8,
-              "currentEquation": "stool_width/2"
-            },
-            {
-              "name": "yDist",
-              "ioValue": 8,
-              "currentEquation": "stool_width/2"
-            },
-            {
-              "name": "zDist",
-              "ioValue": -6,
-              "currentEquation": "-stool_height/5"
-            }
-          ]
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.28117359413202936,
-          "y": 0.48780487804878053,
-          "uniqueID": "id-11137",
-          "name": "Dowel",
-          "ioValues": [
-            {
-              "name": "Dow_length",
-              "ioValue": 16
-            },
-            {
-              "name": "Dow_Diam",
-              "ioValue": 1.375
-            }
-          ],
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-11138",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Circle",
-              "x": 0.30969845150774244,
-              "y": 0.4603658536585366,
-              "uniqueID": "id-11139",
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 1.375
-                }
-              ]
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-11140",
-              "name": "Dow_length"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
-              "uniqueID": "id-11141",
-              "name": "Dow_Diam"
-            },
-            {
-              "atomType": "Extrude",
-              "x": 0.5158924205378973,
-              "y": 0.46341463414634143,
-              "uniqueID": "id-11142",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 16
-                }
-              ]
-            },
-            {
-              "atomType": "Code",
-              "x": 0.42542787286063566,
-              "y": 0.771341463414634,
-              "uniqueID": "id-11143",
-              "ioValues": [
-                {
-                  "name": "diam",
-                  "ioValue": 5
-                },
-                {
-                  "name": "length",
-                  "ioValue": 10
-                }
-              ],
-              "codeVersion": 1,
-              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"diam\", type: \"number\", defaultValue: 5 },\n  { inputName: \"length\", type: \"number\", defaultValue: 10 }\n];\n\nreturn `Wood dowel ${diam}in diameter, ${length}in length`"
-            },
-            {
-              "atomType": "Add-BOM-Tag",
-              "x": 0.7098614506927465,
-              "y": 0.5487804878048781,
-              "uniqueID": "id-11144",
-              "name": "Add BOM Tag",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "Item Name",
-                  "ioValue": "Wood dowel 5in diameter, 10in length",
-                  "currentEquation": "Wood dowel 5in diameter, 10in length"
-                },
-                {
-                  "name": "Number Needed",
-                  "ioValue": 1
-                },
-                {
-                  "name": "Cost (USD)",
-                  "ioValue": 0
-                },
-                {
-                  "name": "Source Link",
-                  "ioValue": ""
-                }
-              ],
-              "BOMitem": {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              }
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-11139",
-              "ap2ID": "id-11142"
-            },
-            {
-              "ap2Name": "height",
-              "ap1ID": "id-11140",
-              "ap2ID": "id-11142"
-            },
-            {
-              "ap2Name": "diameter",
-              "ap1ID": "id-11141",
-              "ap2ID": "id-11139"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-11142",
-              "ap2ID": "id-11144"
-            },
-            {
-              "ap2Name": "Item Name",
-              "ap1ID": "id-11143",
-              "ap2ID": "id-11144"
-            },
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-11144",
-              "ap2ID": "id-11138"
-            }
-          ],
-          "parentRepo": {
-            "privateRepo": false,
-            "repoName": "Dowel",
-            "dateCreated": "2026-04-16T20:01:46Z",
-            "readMe": "https://raw.githubusercontent.com/alzatin/Dowel/master/README.md?sanitize=true",
-            "yyyy": 2026,
-            "topMoleculeID": "id-9670",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/alzatin/Dowel",
-            "topics": [
-              "material"
-            ],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739722",
-            "ranking": 0,
-            "searchField": "dowel alzatin  material",
-            "owner": "alzatin",
-            "description": "",
-            "contentURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Inches",
-          "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-11203",
-          "name": "stool_height",
-          "type": "number"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
-          "uniqueID": "id-11206",
-          "name": "dowel_diam",
-          "type": "number"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
-          "uniqueID": "id-11209",
-          "name": "stool_width",
-          "type": "number"
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11130",
-          "ap2ID": "id-11131"
+          "ap2Name": "DowelDiam",
+          "ap1ID": "id-11957",
+          "ap2ID": "id-11983"
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-11130",
-          "ap2ID": "id-11132"
+          "ap1ID": "id-11983",
+          "ap2ID": "id-12025"
         },
         {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-11131",
-          "ap2ID": "id-11133"
+          "ap2Name": "geometry",
+          "ap1ID": "id-12025",
+          "ap2ID": "id-12031"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-12025",
+          "ap2ID": "id-12049"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-12025",
+          "ap2ID": "id-12055"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-12025",
+          "ap2ID": "id-12061"
         },
         {
           "ap2Name": "Shape 1",
-          "ap1ID": "id-11132",
-          "ap2ID": "id-11133"
+          "ap1ID": "id-12031",
+          "ap2ID": "id-12067"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-11133",
-          "ap2ID": "id-11127"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11134",
-          "ap2ID": "id-11135"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11134",
-          "ap2ID": "id-11136"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-11135",
-          "ap2ID": "id-11133"
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-12049",
+          "ap2ID": "id-12067"
         },
         {
           "ap2Name": "Shape 4",
-          "ap1ID": "id-11136",
-          "ap2ID": "id-11133"
+          "ap1ID": "id-12055",
+          "ap2ID": "id-12067"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11137",
-          "ap2ID": "id-11130"
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-12061",
+          "ap2ID": "id-12067"
         },
         {
-          "ap2Name": "geometry",
-          "ap1ID": "id-11137",
-          "ap2ID": "id-11134"
-        },
-        {
-          "ap2Name": "Dow_Diam",
-          "ap1ID": "id-11206",
-          "ap2ID": "id-11137"
-        },
-        {
-          "ap2Name": "Dow_length",
-          "ap1ID": "id-11209",
-          "ap2ID": "id-11137"
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-12067",
+          "ap2ID": "id-11955"
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6397718011409943,
-      "y": 0.7103658536585366,
-      "uniqueID": "id-11214",
-      "ioValues": [
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 3",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Fusion",
-      "x": 0.7620211898940505,
-      "y": 0.801829268292683,
-      "uniqueID": "id-11221",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": [
-                  {
-                    "geometry": "cut-cut-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "cut-cut-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  }
-                ],
-                "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8--20",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8--20",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8--6",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.6875-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8--6",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  }
-                ],
-                "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "tags": [],
-            "color": "#aad7f2",
-            "bom": [
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              }
-            ],
-            "dimension": "3D",
-            "nonReplicadSerialized": []
-          }
-        }
-      ],
-      "unionType": "Fusion"
     }
   ],
   "allConnectors": [
@@ -6026,6 +6697,11 @@
       "ap2Name": "stool_width",
       "ap1ID": "id-8998",
       "ap2ID": "id-11125"
+    },
+    {
+      "ap2Name": "stool_width",
+      "ap1ID": "id-8998",
+      "ap2ID": "id-11953"
     },
     {
       "ap2Name": "dowel_diam",
@@ -6056,6 +6732,11 @@
       "ap2Name": "dowel_diam",
       "ap1ID": "id-9314",
       "ap2ID": "id-11125"
+    },
+    {
+      "ap2Name": "dowel_diam",
+      "ap1ID": "id-9314",
+      "ap2ID": "id-11953"
     },
     {
       "ap2Name": "geometry",
@@ -6083,9 +6764,29 @@
       "ap2ID": "id-11125"
     },
     {
+      "ap2Name": "stool_height",
+      "ap1ID": "id-9459",
+      "ap2ID": "id-11953"
+    },
+    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-10094",
       "ap2ID": "id-8783"
+    },
+    {
+      "ap2Name": "Shape 10",
+      "ap1ID": "id-11117",
+      "ap2ID": "id-10094"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-11214",
+      "ap2ID": "id-11221"
+    },
+    {
+      "ap2Name": "Shape 9",
+      "ap1ID": "id-11221",
+      "ap2ID": "id-10094"
     },
     {
       "ap2Name": "Shape 1",
@@ -6095,6 +6796,11 @@
     {
       "ap2Name": "Shape 2",
       "ap1ID": "id-10120",
+      "ap2ID": "id-11214"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-11125",
       "ap2ID": "id-11214"
     },
     {
@@ -6113,24 +6819,9 @@
       "ap2ID": "id-9455"
     },
     {
-      "ap2Name": "Shape 10",
-      "ap1ID": "id-11117",
-      "ap2ID": "id-10094"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-11125",
-      "ap2ID": "id-11214"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-11214",
-      "ap2ID": "id-11221"
-    },
-    {
-      "ap2Name": "Shape 9",
-      "ap1ID": "id-11221",
-      "ap2ID": "id-10094"
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-11953",
+      "ap2ID": "id-9455"
     }
   ],
   "unitsKey": "Inches",
