@@ -3299,8 +3299,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7555012224938876,
-      "y": 0.48780487804878053,
+      "x": 0.7082314588427058,
+      "y": 0.4603658536585366,
       "uniqueID": "id-10094",
       "ioValues": [
         {
@@ -3308,15 +3308,19 @@
           "ioValue": null
         },
         {
-          "name": "Shape 2",
+          "name": "Shape 3",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
     },
     {
       "atomType": "Molecule",
-      "x": 0.29584352078239606,
-      "y": 0.7865853658536585,
+      "x": 0.25835370823145887,
+      "y": 0.7164634146341463,
       "uniqueID": "id-10120",
       "name": "top_dowels",
       "ioValues": [
@@ -3358,9 +3362,440 @@
           "uniqueID": "id-10127",
           "name": "stool_width",
           "type": "number"
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.3039934800325998,
+          "y": 0.38414634146341464,
+          "uniqueID": "id-10138",
+          "name": "Dowel",
+          "ioValues": [
+            {
+              "name": "Dow_length",
+              "ioValue": 16
+            },
+            {
+              "name": "Dow_Diam",
+              "ioValue": 1.375
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-10131",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.30969845150774244,
+              "y": 0.4603658536585366,
+              "uniqueID": "id-10132",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 1.375
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-10133",
+              "name": "Dow_length"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-10134",
+              "name": "Dow_Diam"
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5158924205378973,
+              "y": 0.46341463414634143,
+              "uniqueID": "id-10135",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 16
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.42542787286063566,
+              "y": 0.771341463414634,
+              "uniqueID": "id-10136",
+              "ioValues": [
+                {
+                  "name": "diam",
+                  "ioValue": 5
+                },
+                {
+                  "name": "length",
+                  "ioValue": 10
+                }
+              ],
+              "codeVersion": 1,
+              "code": "\n// Example Code\nconst Inputs = [\n  { inputName: \"diam\", type: \"number\", defaultValue: 5 },\n  { inputName: \"length\", type: \"number\", defaultValue: 10 }\n];\n\nreturn `Wood dowel ${diam}in diameter, ${length}in length`"
+            },
+            {
+              "atomType": "Add-BOM-Tag",
+              "x": 0.7098614506927465,
+              "y": 0.5487804878048781,
+              "uniqueID": "id-10137",
+              "name": "Add BOM Tag",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Item Name",
+                  "ioValue": "Wood dowel 5in diameter, 10in length",
+                  "currentEquation": "Wood dowel 5in diameter, 10in length"
+                },
+                {
+                  "name": "Number Needed",
+                  "ioValue": 1
+                },
+                {
+                  "name": "Cost (USD)",
+                  "ioValue": 0
+                },
+                {
+                  "name": "Source Link",
+                  "ioValue": ""
+                }
+              ],
+              "BOMitem": {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              }
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10132",
+              "ap2ID": "id-10135"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-10133",
+              "ap2ID": "id-10135"
+            },
+            {
+              "ap2Name": "diameter",
+              "ap1ID": "id-10134",
+              "ap2ID": "id-10132"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-10135",
+              "ap2ID": "id-10137"
+            },
+            {
+              "ap2Name": "Item Name",
+              "ap1ID": "id-10136",
+              "ap2ID": "id-10137"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-10137",
+              "ap2ID": "id-10131"
+            }
+          ],
+          "parentRepo": {
+            "privateRepo": false,
+            "repoName": "Dowel",
+            "dateCreated": "2026-04-16T20:01:46Z",
+            "readMe": "https://raw.githubusercontent.com/alzatin/Dowel/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-9670",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/alzatin/Dowel",
+            "topics": [
+              "material"
+            ],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739722",
+            "ranking": 0,
+            "searchField": "dowel alzatin  material",
+            "owner": "alzatin",
+            "description": "",
+            "contentURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/alzatin/Dowel/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Inches",
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4083129584352078,
+          "y": 0.24085365853658536,
+          "uniqueID": "id-10161",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5411572942135289,
+          "y": 0.1951219512195122,
+          "uniqueID": "id-10167",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5436022819885901,
+          "y": 0.3536585365853659,
+          "uniqueID": "id-10173",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7481662591687042,
+          "y": 0.36585365853658536,
+          "uniqueID": "id-10179",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4172779136104319,
+          "y": 0.6829268292682927,
+          "uniqueID": "id-10190",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90,
+              "currentEquation": "90"
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5476772616136919,
+          "y": 0.6402439024390244,
+          "uniqueID": "id-10196",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8,
+              "currentEquation": "-stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5664221678891606,
+          "y": 0.8689024390243902,
+          "uniqueID": "id-10202",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 8,
+              "currentEquation": "stool_width/2"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "Dow_Diam",
+          "ap1ID": "id-10124",
+          "ap2ID": "id-10138"
+        },
+        {
+          "ap2Name": "Dow_length",
+          "ap1ID": "id-10127",
+          "ap2ID": "id-10138"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10138",
+          "ap2ID": "id-10161"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10138",
+          "ap2ID": "id-10190"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10161",
+          "ap2ID": "id-10167"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10161",
+          "ap2ID": "id-10173"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-10167",
+          "ap2ID": "id-10179"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-10173",
+          "ap2ID": "id-10179"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-10179",
+          "ap2ID": "id-10122"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10190",
+          "ap2ID": "id-10196"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10190",
+          "ap2ID": "id-10202"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-10196",
+          "ap2ID": "id-10179"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-10202",
+          "ap2ID": "id-10179"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
@@ -3401,7 +3836,7 @@
       "ap2ID": "id-10120"
     },
     {
-      "ap2Name": "Shape 2",
+      "ap2Name": "Shape 4",
       "ap1ID": "id-9455",
       "ap2ID": "id-10094"
     },
@@ -3434,6 +3869,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-10094",
       "ap2ID": "id-8783"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-10120",
+      "ap2ID": "id-10094"
     }
   ],
   "unitsKey": "Inches",
