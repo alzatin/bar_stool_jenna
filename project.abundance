@@ -2237,8 +2237,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.26079869600651995,
-          "y": 0.8567073170731707,
+          "x": 0.2656886715566422,
+          "y": 0.8445121951219513,
           "uniqueID": "id-11120",
           "ioValues": [
             {
@@ -2356,8 +2356,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.1556642216788916,
-          "y": 0.6341463414634146,
+          "x": 0.15973920130399347,
+          "y": 0.649390243902439,
           "uniqueID": "id-13124",
           "name": "3-way-dowel_Corner_joint_",
           "ioValues": [
@@ -4902,8 +4902,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4881825590872046,
-      "y": 0.3201219512195122,
+      "x": 0.48492257538712313,
+      "y": 0.3292682926829268,
       "uniqueID": "id-10784",
       "name": "side_braces",
       "ioValues": [
@@ -6453,6 +6453,36 @@
           },
           "unitsKey": "Inches",
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Export",
+          "x": 0.2591687041564792,
+          "y": 0.7591463414634146,
+          "uniqueID": "id-14595",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "side_brace_1.25",
+              "currentEquation": "side_brace_1.25"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "side_brace_1.25"
         }
       ],
       "allConnectors": [
@@ -6520,14 +6550,19 @@
           "ap2Name": "geometry",
           "ap1ID": "id-13511",
           "ap2ID": "id-10786"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-13511",
+          "ap2ID": "id-14595"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Molecule",
-      "x": 0.3431132844335778,
-      "y": 0.5365853658536586,
+      "x": 0.34474327628361856,
+      "y": 0.5213414634146342,
       "uniqueID": "id-11953",
       "name": "Leg_caps",
       "ioValues": [
