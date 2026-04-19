@@ -2237,8 +2237,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.2656886715566422,
-          "y": 0.8445121951219513,
+          "x": 0.26487367563162184,
+          "y": 0.850609756097561,
           "uniqueID": "id-11120",
           "ioValues": [
             {
@@ -2256,14 +2256,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "top_joints",
-              "currentEquation": "top_joints"
+              "ioValue": "top_joint_1.25",
+              "currentEquation": "top_joint_1.25"
             }
           ],
           "type": null,
           "resolution": 96,
           "importIndex": 0,
-          "partName": "top_joints"
+          "partName": "top_joint_1.25"
         },
         {
           "atomType": "Circle",
@@ -6561,8 +6561,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.34474327628361856,
-      "y": 0.5213414634146342,
+      "x": 0.3480032599837001,
+      "y": 0.5396341463414634,
       "uniqueID": "id-11953",
       "name": "Leg_caps",
       "ioValues": [
@@ -7167,6 +7167,36 @@
             "isLocal": false
           },
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Export",
+          "x": 0.2885085574572127,
+          "y": 0.8262195121951219,
+          "uniqueID": "id-14601",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STL",
+              "currentEquation": "STL"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "Leg_cap_1.25",
+              "currentEquation": "Leg_cap_1.25"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "Leg_cap_1.25"
         }
       ],
       "allConnectors": [
@@ -7219,6 +7249,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-11983",
           "ap2ID": "id-12025"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-11983",
+          "ap2ID": "id-14601"
         }
       ],
       "fileTypeVersion": 1
