@@ -48,8 +48,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6381418092909535,
-      "y": 0.23780487804878048,
+      "x": 0.609735269000854,
+      "y": 0.27743902439024387,
       "uniqueID": "id-9455",
       "ioValues": [
         {
@@ -79,7 +79,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7993079584775087,
+      "x": 0.8017591339648173,
       "y": 0.46951219512195125,
       "uniqueID": "id-10094",
       "ioValues": [
@@ -112,8 +112,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.556401384083045,
-      "y": 0.7804878048780488,
+      "x": 0.6397718011409943,
+      "y": 0.7103658536585366,
       "uniqueID": "id-11214",
       "ioValues": [
         {
@@ -128,8 +128,8 @@
     },
     {
       "atomType": "Fusion",
-      "x": 0.7667820069204152,
-      "y": 0.8231707317073171,
+      "x": 0.7620211898940505,
+      "y": 0.801829268292683,
       "uniqueID": "id-11221",
       "ioValues": [
         {
@@ -1473,8 +1473,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.23321799307958477,
-      "y": 0.8353658536585366,
+      "x": 0.2320703653585927,
+      "y": 0.8262195121951219,
       "uniqueID": "id-11125",
       "name": "Side_dowels_1",
       "ioValues": [
@@ -1711,8 +1711,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.28304498269896194,
-          "y": 0.4420731707317073,
+          "x": 0.2852485737571312,
+          "y": 0.45426829268292684,
           "uniqueID": "id-13696",
           "name": "Dowel",
           "ioValues": [
@@ -4901,8 +4901,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.4546684709066306,
-      "y": 0.3292682926829268,
+      "x": 0.38684884713919726,
+      "y": 0.31402439024390244,
       "uniqueID": "id-10784",
       "name": "side_braces",
       "ioValues": [
@@ -5191,25 +5191,26 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "side_brace_1.25wtol",
-              "currentEquation": "side_brace_1.25wtol"
+              "ioValue": "side_brace_1.25wtol2",
+              "currentEquation": "side_brace_1.25wtol2"
             }
           ],
           "type": null,
           "resolution": 96,
           "importIndex": 0,
-          "partName": "side_brace_1.25wtol"
+          "partName": "side_brace_1.25wtol2"
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.15223274695534506,
-          "y": 0.5152439024390244,
+          "x": 0.15286080273270708,
+          "y": 0.5274390243902439,
           "uniqueID": "id-13511",
           "name": "3-way-dowel_joint-perpendicular",
           "ioValues": [
             {
               "name": "Dowel_diam",
-              "ioValue": 1.25
+              "ioValue": 1.36,
+              "currentEquation": "dowel_diam +.1"
             },
             {
               "name": "section_width",
@@ -5249,7 +5250,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 1.5,
+                  "ioValue": 1.61,
                   "currentEquation": "Dowel_diam + 1/4"
                 }
               ]
@@ -5304,7 +5305,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
+                    "geometry": "extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5331,7 +5332,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
+                    "geometry": "extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5358,7 +5359,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
+                    "geometry": "rotate-extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5434,7 +5435,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 1.25,
+                  "ioValue": 1.36,
                   "currentEquation": "Dowel_diam"
                 }
               ]
@@ -5532,7 +5533,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-move-circle-0.625-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
+                    "geometry": "extrude-move-circle-0.68-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5559,7 +5560,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-move-circle-0.625-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
+                    "geometry": "extrude-move-circle-0.68-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5586,7 +5587,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.625-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
+                    "geometry": "extrude-move-rotate-circle-0.68-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
