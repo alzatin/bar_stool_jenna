@@ -134,7 +134,427 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": null
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": [
+                  {
+                    "geometry": "cut-cut-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "cut-cut-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
+              },
+              {
+                "geometry": [
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8--20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8--20",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8--6",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  },
+                  {
+                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8--6",
+                    "dimension": "3D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": [
+                      {
+                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": ""
+                      }
+                    ]
+                  }
+                ],
+                "tags": [],
+                "bom": [
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  },
+                  {
+                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                    "numberNeeded": 1,
+                    "costUSD": 0,
+                    "source": ""
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2"
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "tags": [],
+            "color": "#aad7f2",
+            "bom": [
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              },
+              {
+                "BOMitemName": "Wood dowel 5in diameter, 10in length",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": ""
+              }
+            ],
+            "dimension": "3D",
+            "nonReplicadSerialized": []
+          }
         }
       ],
       "unionType": "Fusion"
@@ -429,6 +849,11 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Item Name",
+                  "ioValue": "Wood dowel 5in diameter, 10in length",
+                  "currentEquation": "New Item"
                 },
                 {
                   "name": "Number Needed",
@@ -893,6 +1318,11 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
+                  "name": "Item Name",
+                  "ioValue": "Wood dowel 5in diameter, 10in length",
+                  "currentEquation": "New Item"
+                },
+                {
                   "name": "Number Needed",
                   "ioValue": 1
                 },
@@ -1043,8 +1473,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2320703653585927,
-      "y": 0.8262195121951219,
+      "x": 0.2388362652232747,
+      "y": 0.8201219512195123,
       "uniqueID": "id-11125",
       "name": "Side_dowels_1",
       "ioValues": [
@@ -1379,6 +1809,11 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Item Name",
+                  "ioValue": "Wood dowel 5in diameter, 10in length",
+                  "currentEquation": "New Item"
                 },
                 {
                   "name": "Number Needed",
@@ -4722,7 +5157,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "y": 0.14939024390243902,
           "uniqueID": "id-10795",
           "name": "dowel_diam",
           "type": "number"
@@ -4756,26 +5191,26 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "side_brace_1.25wtol2",
-              "currentEquation": "side_brace_1.25wtol2"
+              "ioValue": "side_brace_1.27wtol",
+              "currentEquation": "side_brace_1.27wtol"
             }
           ],
           "type": null,
           "resolution": 96,
           "importIndex": 0,
-          "partName": "side_brace_1.25wtol2"
+          "partName": "side_brace_1.27wtol"
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.15286080273270708,
-          "y": 0.5274390243902439,
+          "x": 0.15087956698240865,
+          "y": 0.5060975609756098,
           "uniqueID": "id-13511",
           "name": "3-way-dowel_joint-perpendicular",
           "ioValues": [
             {
               "name": "Dowel_diam",
-              "ioValue": 1.36,
-              "currentEquation": "dowel_diam +.1"
+              "ioValue": 1.27,
+              "currentEquation": "dowel_diam +0.01"
             },
             {
               "name": "section_width",
@@ -4815,7 +5250,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 1.61,
+                  "ioValue": 1.52,
                   "currentEquation": "Dowel_diam + 1/4"
                 }
               ]
@@ -4870,7 +5305,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
+                    "geometry": "extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -4897,7 +5332,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
+                    "geometry": "extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -4924,7 +5359,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.805-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
+                    "geometry": "rotate-extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5000,7 +5435,7 @@
               "ioValues": [
                 {
                   "name": "diameter",
-                  "ioValue": 1.36,
+                  "ioValue": 1.27,
                   "currentEquation": "Dowel_diam"
                 }
               ]
@@ -5098,7 +5533,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-move-circle-0.68-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
+                    "geometry": "extrude-move-circle-0.635-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5125,7 +5560,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "extrude-move-circle-0.68-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
+                    "geometry": "extrude-move-circle-0.635-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -5152,7 +5587,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.68-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
+                    "geometry": "extrude-move-rotate-circle-0.635-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -6445,7 +6880,30 @@
               "ioValues": [
                 {
                   "name": "Shape 2",
-                  "ioValue": null
+                  "ioValue": {
+                    "geometry": "move-1b7813a2-0.6925-0-0-0-0.7",
+                    "tags": [],
+                    "color": "#A3CE5B",
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "dimension": "3D"
+                  }
                 },
                 {
                   "name": "Shape 5",
