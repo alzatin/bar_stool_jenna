@@ -134,427 +134,7 @@
       "ioValues": [
         {
           "name": "Shape 1",
-          "ioValue": {
-            "geometry": [
-              {
-                "geometry": [
-                  {
-                    "geometry": "cut-cut-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "cut-cut-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0-move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  }
-                ],
-                "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              },
-              {
-                "geometry": [
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8--8--20",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-0-90-0--8-8--20",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0--8-8--6",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  },
-                  {
-                    "geometry": "move-rotate-extrude-circle-0.63-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-16-90-0-0-8-8--6",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": [
-                      {
-                        "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                        "numberNeeded": 1,
-                        "costUSD": 0,
-                        "source": ""
-                      }
-                    ]
-                  }
-                ],
-                "tags": [],
-                "bom": [
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  },
-                  {
-                    "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                    "numberNeeded": 1,
-                    "costUSD": 0,
-                    "source": ""
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2"
-              }
-            ],
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "tags": [],
-            "color": "#aad7f2",
-            "bom": [
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              },
-              {
-                "BOMitemName": "Wood dowel 5in diameter, 10in length",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": ""
-              }
-            ],
-            "dimension": "3D",
-            "nonReplicadSerialized": []
-          }
+          "ioValue": null
         }
       ],
       "unionType": "Fusion"
@@ -849,11 +429,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "Item Name",
-                  "ioValue": "Wood dowel 5in diameter, 10in length",
-                  "currentEquation": "New Item"
                 },
                 {
                   "name": "Number Needed",
@@ -1316,11 +891,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "Item Name",
-                  "ioValue": "Wood dowel 5in diameter, 10in length",
-                  "currentEquation": "New Item"
                 },
                 {
                   "name": "Number Needed",
@@ -1809,11 +1379,6 @@
                 {
                   "name": "geometry",
                   "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "Item Name",
-                  "ioValue": "Wood dowel 5in diameter, 10in length",
-                  "currentEquation": "New Item"
                 },
                 {
                   "name": "Number Needed",
@@ -2457,84 +2022,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "9e611618-{\"geometry\":\"move-extrude-circle-0.755-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}-3.01-0-0--0.755\",\"dimension\":\"3D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-0.5-{\"geometry\":\"move-extrude-rectangle-2-2-{\\\"origin\\\":[0,0,0],\\\"xDir\\\":[1,0,0],\\\"normal\\\":[0,0,1]}--2-0-0-0\",\"dimension\":\"3D\",\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"tags\":[],\"bom\":[]}-1",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 6",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.755-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.75-90-0-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 7",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.755-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.75-0-90-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -2715,84 +2211,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.63-0-0-0-{\"origin\":[0,0,2.3175],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        2.3175
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.63-0-0-0-0-0-0-{\"origin\":[-1.75,0,-1.942890293094024e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-1",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        -1.75,
-                        0,
-                        -1.942890293094024e-16
-                      ],
-                      "xDir": [
-                        1.1102230246251565e-16,
-                        0,
-                        -1
-                      ],
-                      "normal": [
-                        1,
-                        0,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.63-0-0-0-0-0-0-{\"origin\":[0,1.75,-1.942890293094024e-16],\"xDir\":[1,0,0],\"normal\":[0,-1,1.1102230246251565e-16]}-1",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        1.75,
-                        -1.942890293094024e-16
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        -1,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -4061,84 +3488,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--2",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.75-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--2-0-90-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -4289,84 +3647,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        2
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.6875-0-0-0-{\"origin\":[0,0,-2],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        -2
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.6875-0-0-0-0-0-0-{\"origin\":[-2,0,-2.220446049250313e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        -2,
-                        0,
-                        -2.220446049250313e-16
-                      ],
-                      "xDir": [
-                        1.1102230246251565e-16,
-                        0,
-                        -1
-                      ],
-                      "normal": [
-                        1,
-                        0,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -5099,8 +4388,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -90,
-              "currentEquation": "-90"
+              "ioValue": -90
             }
           ]
         },
@@ -5200,6 +4488,30 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": "side_brace_1.265wtol"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.37077131258457374,
+          "y": 0.20426829268292684,
+          "uniqueID": "id-15727",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 90
+            }
+          ]
         },
         {
           "atomType": "GitHubMolecule",
@@ -5305,84 +4617,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.76-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -5533,84 +4776,15 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.635-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        1.5
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.635-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        -1.5
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.635-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        -1.5,
-                        0,
-                        -1.6653345369377348e-16
-                      ],
-                      "xDir": [
-                        1.1102230246251565e-16,
-                        0,
-                        -1
-                      ],
-                      "normal": [
-                        1,
-                        0,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -6091,57 +5265,11 @@
                     },
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-circle-0.078125-0-0-0",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            -0.1
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "circle-0.140625",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
@@ -6589,111 +5717,19 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.7575-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.7575-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.7575-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-0-90-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 4",
-                  "ioValue": {
-                    "geometry": "rotate-extrude-circle-0.7575-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5-90-0-0",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -6844,111 +5880,19 @@
               "ioValues": [
                 {
                   "name": "Shape 1",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.6325-0-0-0-{\"origin\":[0,0,1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        1.5
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "extrude-move-circle-0.6325-0-0-0-{\"origin\":[0,0,-1.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.5",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        -1.5
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 3",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.6325-0-0-0-0-0-0-{\"origin\":[-1.5,0,-1.6653345369377348e-16],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        -1.5,
-                        0,
-                        -1.6653345369377348e-16
-                      ],
-                      "xDir": [
-                        1.1102230246251565e-16,
-                        0,
-                        -1
-                      ],
-                      "normal": [
-                        1,
-                        0,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 4",
-                  "ioValue": {
-                    "geometry": "extrude-move-rotate-circle-0.6325-0-0-0-0-0-0-{\"origin\":[0,1.5,-1.6653345369377348e-16],\"xDir\":[1,0,0],\"normal\":[0,-1,1.1102230246251565e-16]}-0.75",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        1.5,
-                        -1.6653345369377348e-16
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        -1,
-                        1.1102230246251565e-16
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
@@ -7584,57 +6528,11 @@
                     },
                     {
                       "name": "Shape 1",
-                      "ioValue": {
-                        "geometry": "move-circle-0.078125-0-0-0",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            -0.1
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 2",
-                      "ioValue": {
-                        "geometry": "circle-0.140625",
-                        "dimension": "2D",
-                        "tags": [],
-                        "plane": {
-                          "origin": [
-                            0,
-                            0,
-                            0
-                          ],
-                          "xDir": [
-                            1,
-                            0,
-                            0
-                          ],
-                          "normal": [
-                            0,
-                            0,
-                            1
-                          ]
-                        },
-                        "color": "#aad7f2",
-                        "bom": []
-                      }
+                      "ioValue": null
                     },
                     {
                       "name": "Shape 3",
@@ -8031,31 +6929,6 @@
           "unitsKey": "Inches",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1777407745544
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.37077131258457374,
-          "y": 0.20426829268292684,
-          "uniqueID": "id-15727",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -8121,6 +6994,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-15727",
+          "ap2ID": "id-10787"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-15546",
           "ap2ID": "id-10786"
         },
@@ -8128,11 +7006,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-15546",
           "ap2ID": "id-14595"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-15727",
-          "ap2ID": "id-10787"
         }
       ],
       "fileTypeVersion": 1
@@ -8458,57 +7331,11 @@
               "ioValues": [
                 {
                   "name": "Shape 2",
-                  "ioValue": {
-                    "geometry": "move-1b7813a2-0.6925-0-0-0-0.7",
-                    "tags": [],
-                    "color": "#A3CE5B",
-                    "bom": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "dimension": "3D"
-                  }
+                  "ioValue": null
                 },
                 {
                   "name": "Shape 5",
-                  "ioValue": {
-                    "geometry": "extrude-circle-0.6925-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.7",
-                    "dimension": "3D",
-                    "tags": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "bom": []
-                  }
+                  "ioValue": null
                 }
               ],
               "unionType": "Fusion"
