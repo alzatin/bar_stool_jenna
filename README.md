@@ -2,7 +2,7 @@
 
 # bar_stool_jenna
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
