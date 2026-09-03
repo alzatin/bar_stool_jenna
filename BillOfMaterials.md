@@ -2,5 +2,4 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Wood dowel 5in diameter, 10in length|64|$0.00||
-|Total: |64|$0.00| |
+|Total: |0|$0.00| |
